@@ -1,0 +1,64 @@
+
+.kontForma
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+}
+.meniForma
+{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+}
+.FilmoviForma
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-basis: 200px;
+}
+.katForma
+{
+    display: flex;
+    flex-direction: column;
+}
+.meni
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.vrsta
+{
+    width: 30%;
+}
+.labela
+{  
+   color:black;
+}
+.dodaj
+{
+    margin-top:  5px;
+    width: 25%;
+}
+.ramZaFilm
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 5px;
+    width: 200px;
+    height: 300px;
+}
+.Slika
+{
+    width: 200px;
+    height: 300px;
+}
+  
