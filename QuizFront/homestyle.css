@@ -1,0 +1,53 @@
+body
+{
+    background-color:rgb(51, 204, 242);
+}
+
+.BodyDiv
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.CRUDDiv
+{
+    display: flex;
+    border: 1px solid rgb(225, 239, 242);
+    width: 300px;
+    height: 250px;
+    background-color: rgb(35, 154, 194);
+    margin-right:  100px;
+    box-shadow: 5px 10px rgb(0, 189, 252);
+    align-items: center;
+}
+
+.CRUDDiv:hover
+{
+    transform: scale(1.1);
+}
+
+.PlayDiv
+{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(35, 154, 194);
+    box-shadow: 5px 10px rgb(0, 189, 252);
+    border: 1px solid rgb(225, 239, 242);
+}
+
+.PlayDiv:hover
+{
+    transform: scale(1.1);
+}
+
+
+.CRUDLabel
+{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
